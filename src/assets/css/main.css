@@ -1,0 +1,105 @@
+App {
+    font-family: 'montserrat', sans-serif;
+}
+.router-link-exact-active {
+  font-weight: bold;
+}
+.btn-success {
+  background-color: #88c4ec;
+}
+.badge-success {
+  background-color: #88c4ec;
+}
+.card-product {
+  border-radius: 15px;
+
+}
+.card-img-top {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.breadrumb {
+  background-color: transparent;
+  padding: 0;
+}
+.breadrumb-item.active {
+  font-weight: bold;
+  color: black;
+}
+
+
+.navbar {
+  background-color: #8ab1fa;
+  padding: 10px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #212529;
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+.navbar-nav .badge {
+  background-color: #28a745;
+}
+
+/* CSS untuk form pencarian */
+.nav-form {
+  margin-left: auto;
+  
+}
+
+.nav-form .form-inline {
+  display: flex;
+  align-items: center;
+  
+}
+
+.nav-form .from-control {
+  margin-right: 10px;
+}
+
+/* CSS untuk ikon keranjang belanja */
+.navbar-nav .nav-item {
+  margin-left: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  position: relative;
+}
+
+.navbar-nav .nav-item .badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+/* CSS untuk dropdown menu */
+.dropdown-menu {
+  background-color: #f8f9fa;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #212529;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+.gamb {
+  display: flex;
+  justify-content: flex-end;
+  width: 60%; 
+  height: auto;
+}
