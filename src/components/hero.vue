@@ -9,7 +9,7 @@
               <h2>
                 <strong>Banyak Pilihan Buket,<br /></strong>di toko kami
               </h2>
-              <button class="btn btn-lg btn-success">pesan</button>
+              <router-link class="btn btn-lg btn-success" to="/flower"> <b-icon-arrow-right></b-icon-arrow-right>pesan</router-link>
             </div>
           </div>
         </div>

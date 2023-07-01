@@ -8,7 +8,9 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
+          <router-link to="/flower">
           <b-nav-item href="#">Home</b-nav-item>
+        </router-link>
           <b-nav-item-dropdown text="Kategori">
             <b-dropdown-item href="#">Flower</b-dropdown-item>
             <b-dropdown-item href="#">Money</b-dropdown-item>

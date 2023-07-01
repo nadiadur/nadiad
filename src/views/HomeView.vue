@@ -14,8 +14,8 @@
         </div>
       </div>
 
-      <div class="row mb-3">
-        <div class="col-md-3 mt-4" v-for="product in products" :key="product.id" >
+      <div class="row mb-4">
+        <div class="col-md-4 mt-4" v-for="product in products" :key="product.id" >
           <CardProduct :product="product"/>
         </div>
       </div>
@@ -49,7 +49,7 @@ export default {
   },
   mounted() {
     axios
-      .get("http://localhost:3000/best-products")
+      .get("http://localhost:3000/products")
       .then((response)  =>this.setProducts(response.data))
       .catch((error)  => console.log(error))
     
