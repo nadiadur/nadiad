@@ -49,7 +49,7 @@ export default {
   },
   mounted() {
     axios
-      .get("http://localhost:3000/products")
+      .get("http://localhost:3000/best-products")
       .then((response)  =>this.setProducts(response.data))
       .catch((error)  => console.log(error))
     

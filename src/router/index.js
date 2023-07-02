@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import FlowerView from '../views/Flower.vue'
+import FlowerDetailView from '../views/FlowerDetail.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/flower',
     name: 'Flower',
     component: FlowerView
+  },
+  {
+    path: '/flower/:id',
+    name: 'FlowerDetail',
+    component: FlowerDetailView
   },
   {
     path: '/about',
