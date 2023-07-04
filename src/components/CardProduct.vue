@@ -3,8 +3,10 @@
   <img :src=" '../assets/images/' + product.gambar " class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">{{ product.nama }}</h5>
-    <p class="card-text">Harga: Rp. {{ product.harga }}.</p>
-    <router-link class="btn btn-success" :to="'/flower/'+product.id"><b-icon-cart></b-icon-cart>Pesan </router-link>
+    <p class="card-text">Harga: Rp. {{ product.harga }}.
+    <br> Mau tau lebih lanjut klik tombol dibawah!</p>
+    
+    <router-link class="btn btn-success" :to="'/flower/'+product.id">Keterangan </router-link>
   </div>
 </div>
 </template>

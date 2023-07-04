@@ -13,7 +13,7 @@
                 <router-link to="/flower" class="text-dark">Flower</router-link>
               </li>
               <li class="breadcrumb-item active" aria-current="page">
-                Flower Order
+                Keterangan
               </li>
             </ol>
           </nav>
@@ -32,14 +32,11 @@
           <h4>Harga : <strong>Rp. {{ product.harga }}</strong></h4>
           <form class="mt-4">
             <div class="form-group">
-                <label for="jumlah_pemesanan">Jumlah Pesan</label>
-                <input type="number" class="form-control" />
+              <h5>{{ product.keterangan }}</h5>
             </div>
-            <div class="form-group">
-                <label for="keterangan">Keterangan</label>
-                <textarea class="form-control" placeholder="Keterangan : mmmmm,mmm,mmm"></textarea>
+            <div class="tiga">
+            <li><a href="https://wa.me/088229902402"><img src="../assets/images/wa.png"></a></li>
             </div>
-            <button type="submit" class="btn btn-success"><b-icon-cart></b-icon-cart>Pesan</button>
           </form>
         </div>
       </div>
@@ -58,7 +55,7 @@ export default {
   },
   data() {
     return {
-      proudct: {}
+      product: {},
     }
   },
   methods: {
@@ -77,4 +74,5 @@ export default {
 </script>
 
 <style>
+
 </style>

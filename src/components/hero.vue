@@ -7,14 +7,15 @@
           <div class="d-flex h-100">
             <div class="justify-conten-center align-self-center">
               <h2>
-                <strong>Banyak Pilihan Buket,<br /></strong>di toko kami
+                <strong>Temukan Pilihan Buket Terbaik Anda,<br /></strong>di toko kami
               </h2>
-              <router-link class="btn btn-lg btn-success" to="/flower"> <b-icon-arrow-right></b-icon-arrow-right>pesan</router-link>
+              <router-link class="btn btn-lg btn-success" to="/flower">Explore</router-link>
             </div>
           </div>
         </div>
         <div class="col-md-6">
           <img src="../assets/images/foto1.png" width="70%" />
+          
         </div>
       </div>
     </div>
@@ -29,4 +30,5 @@ export default {
 </script>
 
 <style>
+
 </style>

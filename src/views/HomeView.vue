@@ -3,14 +3,12 @@
     <Navbar />
     <div class="container">
       <hero />
-      <div class="row mt-4">
-        <div class="col">
-          <h2>Best <strong>Buket</strong></h2>
-        </div>
-        <div class="col">
-          <router-link to="/flower" class="btn btn-success float-right">
-            <b-icon-eye></b-icon-eye>Lihat Semua
-          </router-link>
+      <div class="row mt-4 ">
+        <div class="control text-center">
+          <ul>
+          <li class="button " >Rekomendasi Buket</li>
+          
+        </ul>
         </div>
       </div>
 
@@ -57,3 +55,7 @@ export default {
   },
 };
 </script>
+<style>
+.home {
+  background-image: url('../assets/images/2.png')
+}</style>

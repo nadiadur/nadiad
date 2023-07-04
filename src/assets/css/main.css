@@ -5,11 +5,9 @@ App {
   font-weight: bold;
 }
 .btn-success {
-  background-color: #88c4ec;
+  background-color: #2786c5;
 }
-.badge-success {
-  background-color: #88c4ec;
-}
+
 .card-product {
   border-radius: 15px;
 
@@ -34,7 +32,18 @@ border-top-left-radius: 15px;
 .img-fluid {
   border-radius: 15px;
 }
-
+.row mt-4 {
+  padding: 20px;
+}
+.control ul li{
+  list-style: none;
+  background-color: #0d0669;
+  padding: 5px 15px;
+  color: rgba(255, 251, 251, 0.925);
+  display: inline-block;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
 
 .navbar {
   background-color: #8ab1fa;
@@ -52,12 +61,10 @@ border-top-left-radius: 15px;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #007bff;
+  color: #8ab1fa;
 }
 
-.navbar-nav .badge {
-  background-color: #28a745;
-}
+
 
 /* CSS untuk form pencarian */
 .nav-form {
@@ -94,7 +101,7 @@ border-top-left-radius: 15px;
 
 /* CSS untuk dropdown menu */
 .dropdown-menu {
-  background-color: #f8f9fa;
+  background-color: #5eaaf7;
 }
 
 .dropdown-menu .dropdown-item {
@@ -102,7 +109,7 @@ border-top-left-radius: 15px;
 }
 
 .dropdown-menu .dropdown-item:hover {
-  background-color: #007bff;
+  background-color: #acd4ff;
   color: #fff;
 }
 .gamb {
@@ -110,4 +117,18 @@ border-top-left-radius: 15px;
   justify-content: flex-end;
   width: 60%; 
   height: auto;
+}
+.tiga {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  
+}
+
+.tiga img {
+  width: 50px; /* Ukuran gambar */
+  height: 50px;
 }
