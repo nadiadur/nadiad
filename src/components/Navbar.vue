@@ -12,10 +12,15 @@
           <router-link class="nav-link" to="/">Home</router-link>
         </li>
           <b-nav-item-dropdown text="Kategori">
-            <b-dropdown-item href="#">Flower</b-dropdown-item>
-            <b-dropdown-item href="#">Money</b-dropdown-item>
-            <b-dropdown-item href="#">Snack</b-dropdown-item>
-            <b-dropdown-item href="#">Figura</b-dropdown-item>
+            <li class="nav-item">
+          <router-link class="nav-link" to="/bunga">Flower</router-link>
+        </li> 
+        <li class="nav-item">
+          <router-link class="nav-link" to="/money">Money</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link class="nav-link" to="/snack">Snack</router-link>
+        </li>
           </b-nav-item-dropdown>
 
           <b-nav-item-dropdown>
