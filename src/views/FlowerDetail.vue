@@ -35,6 +35,7 @@
               <h5>{{ product.keterangan }}</h5>
               <h5>{{ product.ket2 }}</h5>
               <h5>{{ product.ket3 }}</h5>
+              <h5>{{ product.ket4 }}</h5>
             </div>
             <div class="tiga">
             <li><a href="https://wa.me/088229902402"><img src="../assets/images/wa.png"></a></li>

@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import FlowerView from '../views/Flower.vue'
 import FlowerDetailView from '../views/FlowerDetail.vue'
+import HomeDetailView from '../views/HomeDetail.vue'
+import BungaDetailView from '../views/BungaDetail.vue'
 import BungaView from '../views/Bunga.vue'
 import MoneyView from '../views/Money.vue'
 import SnackView from '../views/Snack.vue'
@@ -39,6 +41,16 @@ const routes = [
     path: '/flower/:id',
     name: 'FlowerDetail',
     component: FlowerDetailView
+  },
+  {
+    path: '/bunga/:id',
+    name: 'BungaDetail',
+    component: BungaDetailView
+  },
+  {
+    path: '/home/:id',
+    name: 'HomeDetail',
+    component: HomeDetailView
   },
   {
     path: '/about',
