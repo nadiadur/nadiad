@@ -122,7 +122,7 @@ border-top-left-radius: 15px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
+  width: 150px;
   height: 40px;
   border-radius: 50%;
   
@@ -131,4 +131,5 @@ border-top-left-radius: 15px;
 .tiga img {
   width: 50px; /* Ukuran gambar */
   height: 50px;
+
 }

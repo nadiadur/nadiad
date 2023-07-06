@@ -46,7 +46,7 @@
               <hr>
               <div class="tiga">
               <li><a href="https://wa.me/08315471184"><img src="../assets/images/wa.png"></a></li>
-              <h8> 08315471184</h8>
+              <h8>     08315471184</h8>
               </div>
             </form>
           </div>
