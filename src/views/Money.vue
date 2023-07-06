@@ -36,7 +36,7 @@
             v-for="product in products"
             :key="product.id"
           >
-            <CardProduct :product="product" />
+            <CardMoney :product="product" />
           </div>
         </div>
       </div>
@@ -45,14 +45,14 @@
   
   <script>
   import Navbar from "@/components/Navbar.vue";
-  import CardProduct from "@/components/CardProduct.vue";
+  import CardMoney from "@/components/CardMoney.vue";
   import axios from "axios";
   
   export default {
     name: "MoneyView",
     components: {
       Navbar,
-      CardProduct,
+      CardMoney,
     },
     data() {
       return {
@@ -66,7 +66,7 @@
       },
       searchFlower() {
         axios
-        .get("http://localhost:3000/products?q="+ this.search)
+        .get("http://localhost:3000/uangs?q="+ this.search)
         .then((response) => this.setProducts(response.data))
         .catch((error) => console.log(error));
   

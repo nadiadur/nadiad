@@ -36,7 +36,7 @@
             v-for="product in products"
             :key="product.id"
           >
-            <CardProduct :product="product" />
+            <CardSnack :product="product" />
           </div>
         </div>
       </div>
@@ -45,14 +45,14 @@
   
   <script>
   import Navbar from "@/components/Navbar.vue";
-  import CardProduct from "@/components/CardProduct.vue";
+  import CardSnack from "@/components/CardSnack.vue";
   import axios from "axios";
   
   export default {
     name: "SnackView",
     components: {
       Navbar,
-      CardProduct,
+      CardSnack,
     },
     data() {
       return {
@@ -66,7 +66,7 @@
       },
       searchFlower() {
         axios
-        .get("http://localhost:3000/products?q="+ this.search)
+        .get("http://localhost:3000/makanans?q="+ this.search)
         .then((response) => this.setProducts(response.data))
         .catch((error) => console.log(error));
   

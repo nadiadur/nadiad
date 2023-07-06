@@ -10,7 +10,7 @@
                   <router-link to="/" class="text-dark">Home</router-link>
                 </li>
                 <li class="breadcrumb-item">
-                  <router-link to="/bunga" class="text-dark">Flower</router-link>
+                  <router-link to="/snack" class="text-dark">Snack</router-link>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">
                   Keterangan
@@ -45,7 +45,8 @@
               </div>
               <hr>
               <div class="tiga">
-              <li><a href="https://wa.me/088229902402"><img src="../assets/images/wa.png"></a></li>
+              <li><a href="https://wa.me/08315471184"><img src="../assets/images/wa.png"></a></li>
+              <h8> 08315471184</h8>
               </div>
             </form>
           </div>
@@ -59,7 +60,7 @@
   import axios from "axios";
   
   export default {
-    name: "BungaDetailView",
+    name: "SnackDetailView",
     components: {
       Navbar,
     },
@@ -76,7 +77,7 @@
   
     mounted() {
       axios
-        .get("http://localhost:3000/bungas/"+this.$route.params.id)
+        .get("http://localhost:3000/makanans/"+this.$route.params.id)
         .then((response) => this.setProduct(response.data))
         .catch((error) => console.log(error));
     }

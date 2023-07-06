@@ -10,7 +10,7 @@
                   <router-link to="/" class="text-dark">Home</router-link>
                 </li>
                 <li class="breadcrumb-item">
-                  <router-link to="/flower" class="text-dark">Flower</router-link>
+                  <router-link to="/money" class="text-dark">Money</router-link>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">
                   Keterangan
@@ -36,7 +36,14 @@
                 <h5>{{ product.ket2 }}</h5>
                 <h5>{{ product.ket3 }}</h5>
                 <h5>{{ product.ket4 }}</h5>
+                <h5> Wrapping Exlusive </h5>
+              <h5> Free gretting card</h5>
+              <h5> Bisa ganti warna wrapping </h5>
+              <h5> Warna bunga artificial bisa request </h5> 
+              <h5> Proses pengerjaan 2-3 hari setelah fix order </h5>
+              <h5> Bisa diambil di rumah/Gosend </h5>
               </div>
+              <hr>
               <div class="tiga">
               <li><a href="https://wa.me/088229902402"><img src="../assets/images/wa.png"></a></li>
               </div>
@@ -52,7 +59,7 @@
   import axios from "axios";
   
   export default {
-    name: "HomeDetailView",
+    name: "MoneyDetailView",
     components: {
       Navbar,
     },
@@ -69,7 +76,7 @@
   
     mounted() {
       axios
-        .get("http://localhost:3000/best-products/"+this.$route.params.id)
+        .get("http://localhost:3000/uangs/"+this.$route.params.id)
         .then((response) => this.setProduct(response.data))
         .catch((error) => console.log(error));
     }

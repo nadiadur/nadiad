@@ -36,7 +36,7 @@
             v-for="product in products"
             :key="product.id"
           >
-            <CardProduct :product="product" />
+            <CardBunga :product="product" />
           </div>
         </div>
       </div>
@@ -45,14 +45,14 @@
   
   <script>
   import Navbar from "@/components/Navbar.vue";
-  import CardProduct from "@/components/CardProduct.vue";
+  import CardBunga from "@/components/CardBunga.vue";
   import axios from "axios";
   
   export default {
-    name: "FlowerView",
+    name: "BungaView",
     components: {
       Navbar,
-      CardProduct,
+      CardBunga,
     },
     data() {
       return {
@@ -66,7 +66,7 @@
       },
       searchFlower() {
         axios
-        .get("http://localhost:3000/products?q="+ this.search)
+        .get("http://localhost:3000/bungas?q="+ this.search)
         .then((response) => this.setProducts(response.data))
         .catch((error) => console.log(error));
   
