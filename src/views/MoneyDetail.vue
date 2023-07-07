@@ -44,9 +44,20 @@
               <h5> Bisa diambil di rumah/Gosend </h5>
               </div>
               <hr>
-              <div class="tiga">
-              <li><a href="https://wa.me/088229902402"><img src="../assets/images/wa.png"></a></li>
-              </div>
+              <div class="sosmed">
+            <div class="whatsapp-container">
+              <a href="https://wa.me/6283154711184">
+                <img src="../assets/images/wa.png" alt="WhatsApp Icon" />
+              </a>
+              <p><strong>08315471184</strong></p>
+            </div>
+            <div class="instagram-container">
+              <a href="https://www.instagram.com/buketku.id_/">
+                <img src="../assets/images/ig3.png" alt="Instagram Icon" />
+              </a>
+              <p><strong>buketku.id</strong></p>
+            </div>
+            </div>
             </form>
           </div>
         </div>

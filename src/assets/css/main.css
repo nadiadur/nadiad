@@ -118,18 +118,28 @@ border-top-left-radius: 15px;
   width: 60%; 
   height: auto;
 }
-.tiga {
-  display: inline-flex;
-  justify-content: center;
+
+.sosmed {
+  display: flex;
   align-items: center;
-  width: 150px;
+}
+
+.whatsapp-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.instagram-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.whatsapp-container img,
+.instagram-container img {
+  width: 40px;
   height: 40px;
-  border-radius: 50%;
-  
+  margin-right: 10px;
 }
 
-.tiga img {
-  width: 50px; /* Ukuran gambar */
-  height: 50px;
 
-}
