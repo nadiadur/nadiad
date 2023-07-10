@@ -28,8 +28,12 @@
             <template #button-content>
               <em>User</em>
             </template>
-            <b-dropdown-item href="#">Profile</b-dropdown-item>
-            <b-dropdown-item href="#">Review</b-dropdown-item>
+            <li class="nav-item">
+          <router-link class="nav-link" to="/profile">Profile</router-link>
+        </li>
+           <li class="nav-item">
+          <router-link class="nav-link" to="/riview">Review</router-link>
+        </li>
           </b-nav-item-dropdown>
         </b-navbar-nav>
       </b-collapse>

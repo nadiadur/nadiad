@@ -9,7 +9,8 @@ import SnackDetailView from '../views/SnackDetail.vue'
 import BungaView from '../views/Bunga.vue'
 import MoneyView from '../views/Money.vue'
 import SnackView from '../views/Snack.vue'
-
+import ProfileView from '../views/Profile.vue'
+import RiviewView from '../views/Riview.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -17,6 +18,16 @@ const routes = [
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/profile',
+    name: 'Profile',
+    component: ProfileView
+  },
+  {
+    path: '/riview',
+    name: 'Riview',
+    component: RiviewView
   },
   {
     path: '/flower',
