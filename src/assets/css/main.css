@@ -7,6 +7,10 @@ App {
 .btn-success {
   background-color: #2786c5;
 }
+.btn-success:hover {
+  background-color: #add3ec;
+  color: #000;
+}
 
 .card-product {
   border-radius: 15px;
@@ -121,7 +125,14 @@ border-top-left-radius: 15px;
 
 .sosmed {
   display: flex;
+  justify-content: center;
+}
+
+.sosmed > div {
+  display: flex;
+  justify-content: center;
   align-items: center;
+  margin: 0 10px; /* Atur margin sesuai kebutuhan Anda */
 }
 
 .whatsapp-container {
@@ -134,6 +145,7 @@ border-top-left-radius: 15px;
   align-items: center;
   margin-right: 20px;
 }
+
 
 .whatsapp-container img,
 .instagram-container img {

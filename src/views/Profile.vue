@@ -5,10 +5,12 @@
 <div class="content">
   <h3>Fresh Flower</h3>
   <span> natural & beautiful flower </span>
-  <p>snsnndjd jkkajdbffsi kkmeidjd mdokfije. nvidvjdnvidnvjid jdnvjenvu 
-    mdkmfkgkong kdmfknge kmkovne wpsdk,pa jjjri kff.
-  </p>
-  <button class="normal">Shop Now</button>
+  <p>Kami menciptakan keindahan dengan 
+    buket bunga eksklusif <br>
+    setiap momen berharga Anda! </p> 
+  
+ 
+  <router-link class="btn btn-success" to="/flower">Shop Now</router-link>
 
 </div>
     </div>
@@ -72,20 +74,5 @@ button.normal{
   padding: 1rem 0;
   line-height: 1.5;
 }
-button.normal{
-  font-size: 14px;
-  font-weight: 600;
-  padding: 15px 30px;
-  color: #000;
-  background-color: #645f5f;
-  border-radius: 4px;
-  cursor: pointer;
-  border: none;
-  outline: none;
-  transition: 0.2s;
-}
-.enam button:hover {
-  background: #088178;
-  color: #fff;
-}
+
 </style>

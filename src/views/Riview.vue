@@ -11,6 +11,7 @@
         </ul>
         </div>
       </div>
+      
 
       <div class="row mb-4">
         <div class="col-md-4 mt-4" v-for="product in products" :key="product.id" >
@@ -20,12 +21,47 @@
     </div>
   </div>
 
-      <div class="lima">
-  <h4>Toko Buket</h4>
-  <h2>Banyak <span>Pilihan</span>  Untuk Anda</h2>
-  <button class="normal">Explore</button>
+  <div class="lima">
+  <h4>Berikan kesan</h4>
+  <h2>pada momen istimewa dengan<span> buket</span> bunga indah dari toko kami! </h2>
+ 
+    <router-link class="btn btn-success" to="/flower">Explore</router-link>
   
   </div>
+
+  <div class="contact py-5"></div>
+  <div class="container py-5">
+        <h1 class="text-center">Contact Us.</h1>
+        <div class="row py-5">
+          <div class="col-lg-10 mx-auto">
+            <div class="row text-center">
+              <div class="col-lg-4">
+                <div class="circel">
+                 <span>  <b-icon-cart-fill></b-icon-cart-fill></span>
+                </div>
+                <h5>Shopee</h5>
+                <p>Buketku.id_</p>
+              </div>
+              <div class="col-lg-4">
+                <div class="circel">
+                  <span><b-icon-instagram></b-icon-instagram></span>
+                </div>
+                <h5>Instagram</h5>
+                <p>@buket.ku_</p>
+              </div>
+              <div class="col-lg-4">
+                <div class="circel">
+                  <span> <b-icon-telephone-fill></b-icon-telephone-fill></span>
+                </div>
+                <h5>WhatsApp</h5>
+                <p>+6283154711184</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      
   
     </div>
   </template>
@@ -63,6 +99,23 @@ import axios from "axios";
 </script>
   
   <style>
+  .circel{
+    height: 70px;
+    width: 70px;
+    background-color: lightgray;
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+  .circel:hover{
+    background-color: black;
+    transition: 0,4s;
+    color: white;
+}
+  
   .lima {
     margin: 40px 0;
     display: flex;
@@ -90,21 +143,6 @@ import axios from "axios";
     color: #2e08b8;
    
   }
-  button.normal{
-    font-size: 14px;
-    font-weight: 600;
-    padding: 15px 30px;
-    color: #000;
-    background-color: #666161;
-    border-radius: 4px;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    transition: 0.2s;
-  }
-  .lima button:hover {
-    background: #088178;
-    color: #fff;
-  }
+
  
   </style>
