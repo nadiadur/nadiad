@@ -1,6 +1,6 @@
 <template>
     <div>
-      <div class="home">
+      <div class="review">
     <Navbar />
     <div class="container">
       <div class="row mt-4 ">
@@ -144,5 +144,8 @@ import axios from "axios";
    
   }
 
- 
+  .review {
+  background-color: #add3ec;
+}
+
   </style>

@@ -29,7 +29,7 @@
             <strong>{{ product.nama }}</strong>
           </h2>
           <hr>
-          <h4>Harga : <strong>Rp. {{ product.harga }}</strong></h4>
+          <h4>Harga : <strong>Rp. {{ product.harga }}.000</strong></h4>
           <form class="mt-4">
             <div class="form-group">
               <h5>  <b-icon-flower3></b-icon-flower3> {{ product.keterangan }}</h5>

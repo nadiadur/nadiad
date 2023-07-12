@@ -33,7 +33,7 @@
           </h2>
           <hr />
           <h4>
-            Harga : <strong>Rp. {{ product.harga }}</strong>
+            Harga : <strong>Rp. {{ product.harga }}.000</strong>
           </h4>
           <form class="mt-4">
             <div class="form-group">
