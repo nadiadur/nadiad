@@ -1,6 +1,7 @@
 <template>
   <div>
     <Navbar/>
+
     <div class="enam">
 <div class="content">
   <h3>Fresh Flower</h3>
@@ -10,13 +11,34 @@
     setiap momen berharga Anda! </p> 
   
  
-  <router-link class="btn btn-success" to="/flower">Shop Now</router-link>
-
+ 
+  <div class="content">
+  <div class="baru mt-4">
+    <div class="button-group">
+          <router-link class="btn btn-success" to="/flower">Shop Now</router-link>
+          <b-button class="promo-button" v-b-toggle.sidebar-1 >Promo</b-button>
+        </div>
+    <b-sidebar id="sidebar-1" title="Diskon Akhir Tahun" shadow>
+      <div class="px-3 py-2">
+        <p>
+          "Tutup Tahun dengan Penawaran Fantastis! 
+          Belanja Sekarang untuk Diskon Akhir Tahun dan Promosi Eksklusif!"
+        </p>
+        <b-img src="https://th.bing.com/th/id/OIP.8BkbCvhhrq2S-gEX412VmAHaG9?pid=ImgDet&rs=1" fluid thumbnail></b-img>
+      </div>
+    </b-sidebar>
+  </div>
 </div>
+</div>
+
     </div>
     
+    
 
-  </div>
+</div>
+
+
+  
 </template>
 
 <script>
@@ -27,6 +49,7 @@ name: "ProfileView",
 components: {
       Navbar,
 },
+
 };
 
 </script>
@@ -73,6 +96,20 @@ button.normal{
   color: #333;
   padding: 1rem 0;
   line-height: 1.5;
+}
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.button-group router-link {
+  flex: 10;
+}
+
+.button-group .promo-button {
+  flex: 10;
+  margin-left: 10px;
 }
 
 </style>

@@ -2,11 +2,11 @@
 
 <div class="satu">
     <b-navbar variant="faded" type="light">
-      <b-navbar-brand tag="h1" href="#">BUKETKU</b-navbar-brand>
+      <b-navbar-brand tag="h1" href="#">BUKETKU.ID</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-      <b-collapse id="nav-collapse" is-nav>
+      <b-collapse id="nav-collapse mx-1" is-nav>
         <b-navbar-nav>
           <li class="nav-item">
           <router-link class="nav-link" to="/">Home</router-link>
@@ -40,7 +40,7 @@
         <!-- Right aligned nav items -->
       
        
-      
+       
     </b-navbar>
     
 
@@ -56,4 +56,5 @@ export default {
 </script>
   
   <style>
+  
 </style>

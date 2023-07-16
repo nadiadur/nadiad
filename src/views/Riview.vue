@@ -11,7 +11,8 @@
         </ul>
         </div>
       </div>
-      
+     
+       
 
       <div class="row mb-4">
         <div class="col-md-4 mt-4" v-for="product in products" :key="product.id" >
@@ -146,6 +147,18 @@ import axios from "axios";
 
   .review {
   background-color: #add3ec;
+}
+.tujuh router-link {
+  margin-bottom: 10px;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.sepuluh router-link {
+  margin-bottom: 10px;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
 }
 
   </style>

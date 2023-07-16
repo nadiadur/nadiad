@@ -3,6 +3,7 @@
     <Navbar />
     <div class="container">
       <hero />
+      
       <div class="row mt-4 ">
         <div class="control text-center">
           <ul>
@@ -10,6 +11,7 @@
           
         </ul>
         </div>
+        
       </div>
 
       <div class="row mb-4">
@@ -19,6 +21,7 @@
       </div>
     </div>
   </div>
+
 </template>
 
 <script>
