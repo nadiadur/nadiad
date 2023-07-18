@@ -1,0 +1,541 @@
+{
+  "best-products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Buket Flower Artificial",
+      "harga":  150,
+      "keterangan": "Kode A122",
+      "ket2": "Bunga bisa request",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "bg1.png"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Buket Uang 3 Tingkat ",
+      "harga": 1500,
+      "keterangan": "Kode A135",
+      "ket2": "Bisa disesuaikan budget kalian",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "un4.png"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Buket Snack Beng-Beng",
+      "harga": 95,
+      "keterangan": "10 psc Beng-Beng (bisa request isi sesuai budget)",
+      "ket2": "Snack bisa diganti",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "mk2.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Buket Flower Artificial",
+      "harga":  150,
+      "keterangan": "Kode A122",
+      "ket2": "Bunga bisa request",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "bg1.png"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Buket Uang 3 Tingkat ",
+      "harga": 1500,
+      "keterangan": "Kode A135",
+      "ket2": "Bisa disesuaikan budget kalian",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "un4.png"
+      
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+       "nama": "Buket Snack Beng-Beng",
+      "harga": 95,
+      "keterangan": "10 psc Beng-Beng (bisa request isi sesuai budget)",
+      "ket2": "Snack bisa diganti",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "mk2.jpg"
+     
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Buket Flower Artificial Medium",
+      "harga": 170,
+      "keterangan": "Kode A120",
+      "ket2": "Bunga bisa request",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "bg2.png"
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Buket Money Medium",
+      "harga": 1200,
+      "keterangan": "Kode A128",
+      "ket2":"25 uang lembar asli include pelindung plastik (opp)",
+      "ket3":"bisa tambah flowerrose flanel, bunga artificial, dll.",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "un2.jpg"
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Buket Snack mix ",
+      "harga": 85,
+      "keterangan": "Kode A151",
+      "ket2": "Snack bisa diganti",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "mk1.png"
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "nama": "Buket Artificial Medium",
+      "harga": 150,
+      "keterangan": "Kode A123",
+      "ket2": "Bunga bisa request",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "bg3.png"
+    },
+    {
+      "id": 8,
+      "kode": "K-08",
+      "nama": "Buket Money 2 warna Wrap",
+      "harga": 150,
+      "keterangan": "Kode 165",
+      "ket2":"Wrapping Exclusive perpaduan 2 warna",
+      "ket3":"20 lembar uang asli include pelindung plastik (opp)",
+      "ket4": "availabel uang mainan dan bisa tambah flower rose dll.",
+      "is_ready": true,
+      "gambar": "un3.jpg"
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Buket Snack Small ",
+      "harga": 75,
+      "keterangan": "Kode A100",
+      "ket2": "Bisa pilih snack",
+      "ket3": "bisa request warna wrap",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "mk3.jpg"
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Buket Flower Artificial Medium",
+      "harga": 98,
+      "keterangan": "Kode 158",
+      "ket2": "Bunga bisa request",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "bg4.png"
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Buket Money Kecil",
+      "harga": 170,
+      "keterangan": "Kode A80",
+      "ket2": "10 lembar uang asli include pelindung plastik (opp)",
+      "ket3" : "bisa tambah flowerrose flanel, bunga artificial, dll.",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "un1.jpg"
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Buket Snack Medium",
+      "harga": 85,
+      "keterangan": "Kode A89",
+      "ket2": "bisa request isi sesuai budget",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "mk4.jpg"
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Buket Flower 1 Tangkai",
+      "harga": 20,
+      "keterangan": "Kode A65",
+      "ket2": "tinggi +-43 cm",
+      "ket3": "Pilih bunga sesuai kebutuhan kalian",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "bg5.png"
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Buket Money Large",
+      "harga": 160,
+      "keterangan": "Kode A143",
+      "ket2": "bisa ganti warna wrapping",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "un5.png"
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Buket Snack Dan Boneka",
+      "harga": 95,
+      "keterangan": "Kode A176",
+      "ket2":"bisa request isian sesuai budget",
+      "ket3": "including jaring putih",
+      "ket4":"available boneka toga dan tanpa toga",
+      "is_ready": true,
+      "gambar": "mk5.jpg"
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Buket Flower Small",
+      "harga": 45,
+      "keterangan": "Kode A174",
+      "ket2": "Bunga bisa request",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "bg6.png"
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Buket Money Large",
+      "harga": 2300,
+      "keterangan": "Kode A179",
+      "ket2": "Bisa disesuaikan budget kalian",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "un6.png"
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Buket Snack dan Balon",
+      "harga": 85,
+      "keterangan": "Kode A115",
+      "ket2": "Snack bisa diganti",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "mk6.png"
+    }
+  ],
+  "bungas": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Buket Flower Artificial",
+      "harga":  150,
+      "keterangan": "Kode A122",
+      "ket2": "Bunga bisa request",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "bg1.png"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Buket Flower Artificial Medium",
+      "harga": 170,
+      "keterangan": "Kode A120",
+      "ket2": "Bunga bisa request",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "bg2.png"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Buket Artificial Medium",
+      "harga": 150,
+      "keterangan": "Kode A123",
+      "ket2": "Bunga bisa request",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "bg3.png"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Buket Flower Artificial Medium",
+      "harga": 98,
+      "keterangan": "Kode A158",
+      "ket2": "Bunga bisa request",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "bg4.png"
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Buket Flower 1 Tangkai",
+      "harga": 20,
+      "keterangan": "Kode A65",
+      "ket2": "tinggi +-43 cm",
+      "ket3": "Pilih bunga sesuai kebutuhan kalian",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "bg5.png"
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Buket Flower Small",
+      "harga": 45,
+      "keterangan": "Kode A174",
+      "ket2": "Bunga bisa request",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "bg6.png"
+    }
+   
+  ],
+  "makanans": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Buket Snack mix ",
+      "harga": 85,
+      "keterangan": "Kode A151",
+      "ket2": "Snack bisa diganti",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "mk1.png"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Buket Snack Beng-Beng",
+      "harga": 95,
+      "keterangan": "10 psc Beng-Beng (bisa request isi sesuai budget)",
+      "ket2": "Snack bisa diganti",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "mk2.jpg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Buket Snack Small ",
+      "harga": 75,
+      "keterangan": "Kode A100",
+      "ket2": "Bisa pilih snack",
+      "ket3": "bisa request warna wrap",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "mk3.jpg"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Buket Snack Medium",
+      "harga": 85,
+      "keterangan": "Kode A89",
+      "ket2": "bisa request isi sesuai budget",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "mk4.jpg"
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Buket Snack Dan Boneka",
+      "harga": 95,
+      "keterangan": "Kode 176",
+      "ket2":"bisa request isian sesuai budget",
+      "ket3": "including jaring putih",
+      "ket4":"available boneka toga dan tanpa toga",
+      "is_ready": true,
+      "gambar": "mk5.jpg"
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Buket Snack dan Balon",
+      "harga": 85,
+      "keterangan": "Kode A115",
+      "ket2": "Snack bisa diganti",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "mk6.png"
+    }
+   
+  ],
+  "uangs": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Buket Money Small",
+      "harga": 170,
+      "keterangan": "Kode A80",
+      "ket2": "10 lembar uang asli include pelindung plastik (opp)",
+      "ket3" : "bisa tambah flowerrose flanel, bunga artificial, dll.",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "un1.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Buket Money Medium",
+      "harga": 1200,
+      "keterangan": "Kode A128",
+      "ket2":"25 uang lembar asli include pelindung plastik (opp)",
+      "ket3":"bisa tambah flowerrose flanel, bunga artificial, dll.",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "un2.jpg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Buket Money 2 warna Wrap",
+      "harga": 150,
+      "keterangan": "Kode 165",
+      "ket2":"Wrapping Exclusive perpaduan 2 warna",
+      "ket3":"20 lembar uang asli include pelindung plastik (opp)",
+      "ket4": "availabel uang mainan dan juga bisa tambah flower rose flanel dll",
+      "is_ready": true,
+      "gambar": "un3.jpg"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Buket Uang 3 Tingkat ",
+      "harga": 1500,
+      "keterangan": "Kode A135",
+      "ket2": "Bisa disesuaikan budget kalian",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "un4.png"
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Buket Money Large",
+      "harga": 160,
+      "keterangan": "Kode A143",
+      "ket2": "bisa ganti warna wrapping",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "un5.png"
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Buket Money Large",
+      "harga": 2300,
+      "keterangan": "Kode A179",
+      "ket2": "Bisa disesuaikan budget kalian",
+      "ket3": "including jaring putih",
+      "ket4": "Pemesanan bisa H-1 sebelum acara",
+      "is_ready": true,
+      "gambar": "un6.png"
+    }
+   
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "buket": "Buket Artificial Medium",
+      "nama":  "Safirsa Tya",
+      "keterangan": "Saya sangat senang dengan buket yang saya pesan. Bunganya segar dan terawat dengan baik. Sangat indah untuk dilihat!",
+      "is_ready": true,
+      "gambar": "c2.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "buket": "Buket Flower Small",
+      "nama":  "Najwa Mutia",
+      "keterangan": "Pengalaman memesan buket sangat menyenangkan. Layanan pelanggan yang ramah dan profesional, serta buket yang tiba tepat waktu. Sangat merekomendasikan",
+      "is_ready": true,
+      "gambar": "c6.png"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "buket": "Buket Artificial Medium",
+      "nama":  "Nanad Fauzia",
+      "keterangan": "Pengalaman pesan buket sangat menyenangkan. Situs webnya mudah digunakan, dan pilihan bunga yang tersedia sangat beragam.",
+      "is_ready": true,
+      "gambar": "c4.jpg"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "buket": "Buket Money Large",
+      "nama":  "Novitasari",
+      "keterangan": "Pelayanan yang baik dan buket yang cantik",
+      "is_ready": true,
+      "gambar": "c6.jpg"
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "buket": "Buket Snack Dan Boneka",
+      "nama":  "Meiliza Nazwa",
+      "keterangan": "Kualitas bunga yang luar biasa, sangat puas dengan pembelian saya",
+      "is_ready": true,
+      "gambar": "c7.png"
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "buket": "Buket Money Small",
+      "nama":  "Icha Lucita",
+      "keterangan": "Segera pesan disinii, harga terjangkau dan sangat wort it",
+      "is_ready": true,
+      "gambar": "c8.jpg"
+    }
+  ]
+}
