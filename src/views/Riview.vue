@@ -132,11 +132,12 @@ import axios from "axios";
   }
   .lima h4 {
     color: #000000;
-    font-size: 16px;
+    font-size: 20px;
+    
   
   }
   .lima h2 {
-    color: #696565;
+    color: #534e4e;
     font-size: 30px;
     padding: 10px 0;
   }
